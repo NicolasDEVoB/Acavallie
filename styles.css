@@ -176,15 +176,17 @@ a {
   border-radius: 6px;
   background: transparent;
   transform: translateY(-53%);
-  color: #d9a2a9;
-  font-size: 1.45rem;
-  font-weight: 700;
-  line-height: 1;
   cursor: pointer;
 }
 
+.link-card__share-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.4;
+}
+
 .link-card__share:hover {
-  color: var(--rose-text);
   background: rgba(200, 117, 129, 0.08);
 }
 
