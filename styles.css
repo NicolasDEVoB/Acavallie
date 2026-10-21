@@ -162,6 +162,10 @@ a {
   gap: 3px;
 }
 
+.link-card__icon--tiktok {
+  transform: scale(0.88);
+}
+
 .link-card__title {
   font-size: 1rem;
   line-height: 1.2;
