@@ -95,9 +95,16 @@ a {
 }
 
 .social-links svg {
+  display: block;
   width: 24px;
   height: 24px;
+  flex-shrink: 0;
   fill: currentColor;
+}
+
+.social-links a[aria-label="TikTok"] svg {
+  width: 20px;
+  height: 20px;
 }
 
 .links {
