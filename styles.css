@@ -119,6 +119,12 @@ a {
 
 .link-card-shell {
   position: relative;
+  transition: transform 160ms ease;
+}
+
+.link-card-shell:hover,
+.link-card-shell:focus-within {
+  transform: translateY(-2px);
 }
 
 .link-card {
@@ -134,11 +140,10 @@ a {
   color: var(--rose-text);
   text-align: center;
   text-decoration: none;
-  transition: transform 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
 }
 
 .link-card:hover {
-  transform: translateY(-2px);
   background: #fff0f1;
   box-shadow: 0 7px 18px rgba(92, 43, 52, 0.12);
 }
